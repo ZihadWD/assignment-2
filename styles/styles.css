@@ -347,7 +347,7 @@ margin-top: 24px;
     
 }
 .news{
-    width: 474px;
+width: 474px;
 height: 422px;
 flex-shrink: 0;
 border-radius: 16px;
@@ -357,7 +357,7 @@ padding: 15px 10px 30px 20px;
 }
 .mountain-img{
     width: 672px;
-height: 422px;
+height: 472px;
 flex-shrink: 0;
 border-radius: 16px;
 }
@@ -366,19 +366,84 @@ border-radius: 16px;
 text-align: center;
 font-size: 24px;
 font-weight: 400;
-width: 324px;
-height: 120px;
+width: 150px;
+height: 90px;
 transform: rotate(-19.628deg);
 flex-shrink: 0;
 border-radius: 16px;
 background: #FF5400;
-padding-left:400px;
+padding-left:300px;
+position: relative;
+left: 360px;
+top:-140px;
+}
+.save{
+    position: relative;
+    left: -225px;
+    top:-10px;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    
 }
 .newsletter{
     display: flex;
     gap: 25px;
     padding: 50px 100px 30px 135px;
     
+}
+
+
+/* footer */
+.hero-img{
+    width: 40px;
+height: 46.673px;
+flex-shrink: 0;
+}
+.hero{
+    color: var(--Dark-01, #131318);
+font-size: 32px;
+font-weight: 800;
+}
+.red{
+    color: #FF5400;
+font-size: 32px;
+font-weight: 800;
+}
+.food-title{
+    display: flex;
+}
+.foot-descript{
+
+width: 769px;}
+.foot-icons{
+    display: flex;
+    gap: 20px;
+}
+.foot-img{
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+
+}
+.reserved{
+    color: #131318;
+font-size: 16px;
+font-weight: 300;
+padding: 50px 0 60px 0;
+}
+.foot{
+    /* width: 1440px;
+height: 502px; */
+flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05);
+text-align: center;
+padding: 10px 0 10px 0;
+
+}
+.middle{
+    align-items: center;
+    padding-left: 450px;
 }
 
 
