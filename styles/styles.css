@@ -414,8 +414,10 @@ font-weight: 800;
     display: flex;
 }
 .foot-descript{
-
-width: 769px;}
+    position: relative;
+    left: -100px;
+   width: 769px;
+}
 .foot-icons{
     display: flex;
     gap: 20px;
