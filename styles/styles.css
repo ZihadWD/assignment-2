@@ -61,18 +61,17 @@ flex-shrink: 0;
 /* banner */
 .banner{
     height: 500px;
-   
-    
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgb(0 0 0 / 32%);
+    background-size: cover;
+    background-color: rgb(0 0 0 / 42%);
     background-blend-mode: color ;
     filter: contrast(145%);
        
        flex-shrink: 0;
         border-radius: 16px;
-        margin: 0px 135px;
+        margin: 50px 50px;
        
         opacity: 0.8;
         
@@ -83,13 +82,16 @@ flex-shrink: 0;
         color: #FFF;
     font-size: 64px;
     font-weight: 800;
+    padding-top: 20px;
     text-align: center;
+    
+    
     }
     .banner-descript{
         color: #FFF;
     font-size: 16px;
     font-weight: 400;
-    background-color: #FF5400;
+    text-align: center;
     }
     
     .banner{
@@ -97,21 +99,31 @@ flex-shrink: 0;
     .banner-text{
         
         top: 0;
-        padding: 100px 250px 100px 550px;
+        padding: 23px 287px 314px;
+       
     
     }
     
     .option{
-        width: 174px;
-    height: 52px;
+   
+    height: 42px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: #FFF;
+    
+   
     text-align: center;
     display: flex;
-    padding-right: 24px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+   
+    
+   
+    
     }
+    
     .find{
+        display: flex;
         color: #FFF;
     text-align: center;
     font-size: 16px;
@@ -119,14 +131,18 @@ flex-shrink: 0;
     border-radius: 8px;
     background: #FF5400;
     width: 174px;
+    padding: 0px 10px ;
+    
     
     }
     .input{
         border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     align-items: center;
-    width: 700px;
+    width: 760px;
     height: 60px;
     display: flex;
+    justify-content: space-around;
     
     }
+   
